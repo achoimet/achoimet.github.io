@@ -1,0 +1,26 @@
+/* Trésorine site: same palette as the app (always dark). */
+:root {
+  --ground: #070c16;
+  --card: #111c31;
+  --ink: #e6edf7;
+  --muted: #8b9ab5;
+  --brand: #34d399;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 2.2rem; margin: 0.2em 0; line-height: 1.15; }
+h2 { font-size: 1.25rem; margin-top: 2em; }
+h3 { font-size: 1.05rem; margin: 1.5em 0 0.3em; }
+p, li { color: var(--muted); }
+strong, em { color: var(--ink); }
+.lead { font-size: 1.1rem; color: var(--ink); background: var(--card); padding: 16px; border-radius: 16px; }
+.meta { font-size: 0.9rem; }
+.back { margin: 0 0 16px; }
+.icon { border-radius: 20px; display: block; }
+a { color: var(--brand); }
