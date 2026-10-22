@@ -4,7 +4,8 @@ import {
   siKubernetes,
   siIstio,
   siTerraform,
-  siGo
+  siGo,
+  siClaude
 } from 'simple-icons/icons';
 
 // Manual AWS Icon (missing from simple-icons export)
@@ -13,12 +14,14 @@ const siAmazonwebservices = {
 };
 
 const services = [
+  "AI-Native Engineering with Claude Code",
   "Cloud Architecture Audit (AWS)",
   "Landing Zone Design",
   "Kubernetes Setup & Audit (EKS / GKE)",
   "Self-Service Platforms & GitOps Workflows",
   "Observability Stack Implementation",
   "Reliability & SRE Assessment",
+  "Parallel AI Agents for Delivery Teams",
   "Chaos Engineering Practice Implementation (Steadybit)",
   "Cloud & Kubernetes Security Audit",
   "Cloud & Kubernetes Cost Optimization (FinOps)",
@@ -33,6 +36,7 @@ const skills = [
   { name: "Istio", icon: siIstio, color: "#466BB0" },
   { name: "Terraform", icon: siTerraform, color: "#7B42BC", detail: "Terraform / Terragrunt" },
   { name: "Golang", icon: siGo, color: "#00ADD8" },
+  { name: "Claude Code", icon: siClaude, color: "#D97757", detail: "Daily, parallel agents" },
 ];
 
 const skillsTrack = document.getElementById('skills-track');
