@@ -19,7 +19,8 @@ body.landing { --line: #3a3d33; --orange: #ffb547; overflow-x: clip; }
 .eyebrow { color: var(--lime); text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.8rem; font-weight: 700; }
 .sub { font-size: 1.2rem; color: var(--ink); max-width: 30em; }
 .cta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 24px 0 10px; }
-.badge { display: inline-flex; align-items: center; gap: 10px; background: #000; color: var(--ink); border: 1.5px solid var(--line); border-radius: 12px; padding: 8px 16px 8px 12px; }
+.badge { text-decoration: none; display: inline-flex; align-items: center; gap: 10px; background: #000; color: var(--ink); border: 1.5px solid var(--line); border-radius: 12px; padding: 8px 16px 8px 12px; }
+.badge:hover { border-color: var(--lime); }
 .badge small { display: block; font-size: 0.7rem; color: var(--muted); line-height: 1.1; }
 .badge span { font-weight: 700; line-height: 1.2; }
 .button { display: inline-block; padding: 14px 22px; border-radius: 999px; border: 1.5px solid var(--line); color: var(--lime); font-weight: 700; text-decoration: none; }
